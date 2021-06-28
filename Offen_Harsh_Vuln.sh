@@ -3,13 +3,13 @@
 
 echo -e "\n
 -----------------------------------------------------------------------------------------------------
-			                Welcome to Offensive IOT by Harshad!
+			    Welcome to Offensive IOT by Harshad!
                             
                 	    Harsh BOT Ready for Vulnerability Scanning. 
                             
-                      Provide  IP  for Vulnerability  Scanning.
+                     	    Provide  IP  for Vulnerability  Scanning.
 			    
-                      #Author = Harshad Shah
+                      	    #Author = Harshad Shah
 -----------------------------------------------------------------------------------------------------"
 
 echo -e "\nWelcome to Offensive IOT Scanning Program!\n"
@@ -35,7 +35,7 @@ echo -e "\n"
 
 echo -e "\n"
 
-nikto -h   $IP_ADDR -o $IP_ADDR.html -F html ; echo -e "\n" ; echo -e "\n"
+sudo nikto -h   $IP_ADDR -o $IP_ADDR.html -F html ; echo -e "\n" ; echo -e "\n"
 
 echo -e "\n"
 
